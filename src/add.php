@@ -11,6 +11,12 @@ if (!$conn) {
             </h4>
         </div>
         <form action="process-add.php" method="post">
+        <div class="form-group row">
+                <label for="txtTitle" class="col-sm-2 col-form-label">Tên bài thi: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="txtTitle" name="txtId">
+                </div>
+            </div>
             <div class="form-group row">
                 <label for="txtTitle" class="col-sm-2 col-form-label">Tên bài thi: </label>
                 <div class="col-sm-10">

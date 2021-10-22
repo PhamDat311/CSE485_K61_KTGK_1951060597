@@ -9,7 +9,7 @@ if (isset($_POST['btnSave'])){
     $status = $_POST['txtStatus'];
     $exam = $_POST['txtExam'];
 }
-    $conn = mysqli_connect('localhost', 'root', '', 'qlnhm');
+    $conn = mysqli_connect('localhost', 'root', '', 'db_tracnghiem');
     if (!$conn) {
         die('Không thể kết nối');
     }
