@@ -11,6 +11,6 @@ $result = mysqli_query($conn, $sql);
 if ($result == true) {
     header("Location:index.php");
 } else {
-    echo "Error";
+    echo ("Location:error.php");
 }
 ?>
